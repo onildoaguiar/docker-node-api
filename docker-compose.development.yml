@@ -1,0 +1,24 @@
+version: '3.5'
+
+services:
+  app:
+    build:
+      context: .
+      args:
+        - NODE_ENV=development
+    command : /app/node_modules/.bin/nodemon --exec npm start
+    volumes:
+      - .:/app
+      - notused:/app/node_modules
+    ports:
+      - 3000:3000
+    links:
+      - mongodb  
+    depends_on: 
+      - mongodb
+    tty: true
+  mongodb:
+    image: mongo:latest
+
+volumes:
+  notused:
