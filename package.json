@@ -1,7 +1,7 @@
 {
   "name": "docker-node-api",
   "version": "1.0.0",
-  "description": "Dockerizing a Node.js app",
+  "description": "Dockerizing a Node.js API",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,7 +14,7 @@
     "app",
     "api"
   ],
-  "author": "onildoaguiar",
+  "author": "Onildo Aguiar <onildo.aguiar@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "express": "^4.16.2"
