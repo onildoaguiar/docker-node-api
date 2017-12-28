@@ -10,6 +10,7 @@ You can run using Docker Compose:
 
 ```console
 $ docker-compose up -d
+```
 
 Development environment
 
