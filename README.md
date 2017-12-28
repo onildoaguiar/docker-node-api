@@ -6,7 +6,7 @@ Dockerizing a Node.js API
 
 # How to use this example
 
-You can then run using Docker Compose:
+You can run using Docker Compose:
 
 ```console
 $ docker-compose up -d
@@ -15,8 +15,10 @@ Development environment
 
 ```console
 $ docker-compose -f docker-compose.development.yml up -d
+```
 
 Test environment
 
 ```console
 $ docker-compose -f docker-compose.test.yml up -d
+```
